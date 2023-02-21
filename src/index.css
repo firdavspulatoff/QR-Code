@@ -1,0 +1,84 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+html, body{
+  height: 100%;
+}
+body {
+  font-family: 'Fascinate Inline', cursive;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: normal;
+  overflow-x: hidden;
+  background:white  ;
+}
+/* h1, h2, h3, h4, h5, h6{
+  font-weight: inherit;
+  font-size: inherit
+} */
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+button,
+button:focus,
+input,
+input:focus {
+  outline: none;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+img, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+  /* padding-right: 1rem; */
+  /* padding-left: 1rem; */
+  position: relative;
+  z-index: 1;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputt{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  border: 1px solid grey;
+  width: 300px;
+cursor: pointer;
+padding: 3px;
+}
+.input:focus{
+border: 2px solid black;
+}
+.qr_code{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
